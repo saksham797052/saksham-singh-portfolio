@@ -6,7 +6,7 @@ const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader
 const nextConfig: NextConfig = {
   // --- GitHub Pages Settings (New) ---
   output: "export",  // Static HTML generate karega
-  basePath: "/saksham-singh-portfolio", // Tumhare repo ka naam
+ // basePath: "/saksham-singh-portfolio", // Tumhare repo ka naam
   
   images: {
     unoptimized: true, // GitHub Pages par images show karne ke liye zaroori
