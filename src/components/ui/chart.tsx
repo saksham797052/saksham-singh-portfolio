@@ -112,7 +112,8 @@ function ChartTooltipContent({
   indicator = "dot",
   hideLabel = false,
   hideIndicator = false,
-  label,
+  // @ts-ignore
+  label,  //
   labelFormatter,
   labelClassName,
   formatter,
