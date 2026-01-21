@@ -4,7 +4,12 @@ import path from "node:path";
 const LOADER = path.resolve(__dirname, 'src/visual-edits/component-tagger-loader.js');
 
 const nextConfig: NextConfig = {
+  // --- GitHub Pages Settings (New) ---
+  output: "export",  // Static HTML generate karega
+  basePath: "/saksham-singh-portfolio", // Tumhare repo ka naam
+  
   images: {
+    unoptimized: true, // GitHub Pages par images show karne ke liye zaroori
     remotePatterns: [
       {
         protocol: 'https',
@@ -16,6 +21,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // --- Existing Orchids Settings ---
   outputFileTracingRoot: path.resolve(__dirname, '../../'),
   typescript: {
     ignoreBuildErrors: true,
@@ -33,4 +39,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-// Orchids restart: 1768847419748
