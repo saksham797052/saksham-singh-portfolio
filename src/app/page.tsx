@@ -96,7 +96,7 @@ const experiences = [
   {
     role: "B.Tech Student",
     company: "IoT & Cyber Security",
-    period: "2023 - Present",
+    period: "2024 - Present",
     description: "Specializing in IoT systems and Cyber Security. Building real-world projects and learning by doing.",
     milestone: "Current Chapter",
     achievement: "Security Enthusiast",
