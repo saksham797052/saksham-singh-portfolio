@@ -78,7 +78,7 @@ const achievements = [
   {
     title: "Runner-Up at Rajasthan UG Hackathon",
     event: "National-Level Competition",
-    date: "2024",
+    date: "2026",
     description: "Secured 2nd place among talented teams across India, showcasing innovative problem-solving and technical skills.",
     icon: Trophy,
   },
@@ -88,7 +88,7 @@ const experiences = [
   {
     role: "Runner-Up",
     company: "Rajasthan UG Hackathon",
-    period: "2024",
+    period: "2026",
     description: "Secured 2nd place at the national-level hackathon, competing against talented teams across India with an innovative solution.",
     milestone: "Achievement Unlocked",
     achievement: "🏆 2nd Place Winner",
@@ -104,7 +104,7 @@ const experiences = [
   {
     role: "Self-Taught Developer",
     company: "Independent Learning",
-    period: "2022 - Present",
+    period: "2024 - Present",
     description: "Learning C, JavaScript, Python through hands-on projects. Exploring ethical hacking and system security.",
     milestone: "Growth Arc",
     achievement: "3+ Projects Built",
